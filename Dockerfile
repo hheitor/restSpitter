@@ -9,7 +9,10 @@ RUN zypper --non-interactive install \
     python3 \
     python3-pip \
     curl \
-    sudo
+    sudo \
+    git \ 
+    wget \
+    vi 
 
 # ansible & F5 dependencies
 RUN zypper  --non-interactive in ansible
@@ -25,3 +28,4 @@ RUN /bin/echo -e "[local]\nlocalhost ansible_connection=local" > /etc/ansible/ho
 #RUN curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ENV container=docker
 WORKDIR /root/aci
+
