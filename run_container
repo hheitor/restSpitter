@@ -1,4 +1,4 @@
 #!/bin/bash	
 	#
 	#
-	docker run -it -v $PWD/playbooks:/root/azure hheredia/hhimages:aci
+	docker run -it -v $PWD/playbooks:/root/aci hheredia/hhimages:aci01
