@@ -8,12 +8,21 @@ RUN zypper --non-interactive install \
     bzip2 \
     python3 \
     python3-pip \
-    ptyhon3-lxml \
     curl \
     sudo \
     git \ 
     wget \
-    vi 
+    vi \
+    libxml2-devel \
+    glibc-devel \
+    libxml2-devel \
+    linux-glibc-devel \
+    ncurses-devel \
+    readline-devel \
+    tack \
+    xz-devel \
+    zlib-devel \
+    libxslt-devel    
 
 # ansible & F5 dependencies
 RUN zypper  --non-interactive in ansible
