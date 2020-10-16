@@ -1,2 +1,2 @@
 #!/bin/bash	
-docker run -it -v $PWD/scripts:/root/aci hheredia/hhimages:aci01
+docker run -it -v $PWD/scripts:/root/aci heredia/hhimages:aci01
