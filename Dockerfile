@@ -8,6 +8,7 @@ RUN zypper --non-interactive install \
     bzip2 \
     python3 \
     python3-pip \
+    ptyhon3-lxml \
     curl \
     sudo \
     git \ 
